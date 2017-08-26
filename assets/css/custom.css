@@ -1,0 +1,53 @@
+.is-image-background {
+    background-image: url(../images/hero-image.jpeg);
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.is-image-background::before {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(0,0,0,0.7); 
+}
+
+.has-text-white a,
+.has-text-white p,
+.has-text-white h1,
+.has-text-white h2 {
+	color: #fff;
+}
+
+.section-title {
+	margin-bottom: 2.5rem !important;
+}
+
+.fa {
+	margin-bottom: 1rem;
+}
+
+.with-border .column {
+    background: #fff;
+    padding: 2rem;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.with-border .column:hover {
+    box-shadow: 1px 1px 16px 1px rgba(114, 114, 114,0.2);
+    transform: scale(1.01);
+}
+
+/* hero */
+.hero .title { font-size: 4rem;}
+.hero .subtitle { font-size: 2rem; }
+.hero .button { 
+	text-transform: uppercase;
+}
+
+.hero .nav {
+	box-shadow: none;
+}
+
+
